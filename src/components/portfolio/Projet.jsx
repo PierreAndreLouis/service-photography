@@ -3,12 +3,12 @@ import React from "react";
 function Projet() {
   return (
     <div className="min-h-screen w-full">
-      <div className="bg-orange-50 dark:bg-gray-900 px-4 md:px-8 py-20 pb-52">
+      <div className="bg-sky-50 dark:bg-gray-900 px-4 md:px-8 py-20 pb-52">
         <div id="features" className="mx-auto max-w-6xl ">
-          <p className="text-center text-xl font-semibold leading-7 text-primary-500 dark:text-orange-500 ">
+          <p className="text-center text-xl font-semibold leading-7 text-primary-500 dark:text-sky-500 ">
             Mes Projets Personnels
           </p>
-          <h2 className="text-center font-display text-3xl font-semibold tracking-tight text-orange-400 dark:text-slate-100 md:text-4xl">
+          <h2 className="text-center font-display text-3xl font-semibold tracking-tight text-sky-400 dark:text-slate-100 md:text-4xl">
             Mes dernières réalisations
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 ">
@@ -40,7 +40,7 @@ function Projet() {
                   attrayant.
                 </p> */}
                 <div className="flex justify-center ">
-                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-orange-500 text-white">
+                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-sky-500 text-white">
                     Visiter
                   </button>
                 </div>
@@ -75,7 +75,7 @@ function Projet() {
                   attrayant.
                 </p> */}
                 <div className="flex justify-center ">
-                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-orange-500 text-white">
+                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-sky-500 text-white">
                     Visiter
                   </button>
                 </div>
@@ -110,7 +110,7 @@ function Projet() {
                   attrayant.
                 </p> */}
                 <div className="flex justify-center ">
-                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-orange-500 text-white">
+                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-sky-500 text-white">
                     Visiter
                   </button>
                 </div>
@@ -145,7 +145,7 @@ function Projet() {
                   attrayant.
                 </p> */}
                 <div className="flex justify-center ">
-                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-orange-500 text-white">
+                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-sky-500 text-white">
                     Visiter
                   </button>
                 </div>
@@ -180,7 +180,7 @@ function Projet() {
                   attrayant.
                 </p> */}
                 <div className="flex justify-center ">
-                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-orange-500 text-white">
+                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-sky-500 text-white">
                     Visiter
                   </button>
                 </div>
@@ -215,7 +215,7 @@ function Projet() {
                   attrayant.
                 </p> */}
                 <div className="flex justify-center ">
-                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-orange-500 text-white">
+                  <button className="py-1 px-4 mx-auto max-w-[10rem] w-full mt-4-- rounded-lg text-center bg-sky-500 text-white">
                     Visiter
                   </button>
                 </div>
@@ -246,7 +246,7 @@ function Projet() {
             {/* ))} */}
           </div>
           {/* <div className='w-full flex justify-center'>
-          <button className='mt-10 mx-auto border bg-orange-100 border-orange-800 font-semibold py-2 px-10 rounded-xl text-slate-700'>Plus der service</button>
+          <button className='mt-10 mx-auto border bg-sky-100 border-sky-800 font-semibold py-2 px-10 rounded-xl text-slate-700'>Plus der service</button>
         </div> */}
         </div>
       </div>

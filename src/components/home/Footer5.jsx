@@ -73,10 +73,10 @@ const Footer5 = () => {
             <img
               src="/assets/profil2.png"
               alt=""
-              className=" bg-orange-500 w-[4rem] object-cover max-h-[4rem] rounded-full object-top"
+              className=" bg-sky-500 w-[4rem] object-cover max-h-[4rem] rounded-full object-top"
             />
             <p>
-              Pierre-<span className="text-orange-500">Andre</span>
+              Pierre-<span className="text-sky-500">Andre</span>
             </p>
           </div>
           <p>
@@ -113,7 +113,7 @@ const Footer5 = () => {
         <div className="sm:grid flex flex-wrap items-start  grid-cols-2 md:grid-cols-3  sm:flex-- col-span-2 md:pl-10--">
           <div className="sm:w-full">
             <div className="py-8 px-4">
-              <h1 className="sm:text-xl text-orange-500 text-xl font-bold sm:text-left text-justify mb-3">
+              <h1 className="sm:text-xl text-sky-500 text-xl font-bold sm:text-left text-justify mb-3">
                 Liens de navigation
               </h1>
               <ul className="flex flex-col gap-3">
@@ -123,7 +123,7 @@ const Footer5 = () => {
                     scrollToTop();
                   }}
                   to="/home"
-                  className="hover:text-orange-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                  className="hover:text-sky-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
                   // key={link.title}
                 >
                   <span>Acceuil</span>
@@ -133,7 +133,7 @@ const Footer5 = () => {
                     scrollToTop();
                   }}
                   to="/about"
-                  className="hover:text-orange-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                  className="hover:text-sky-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
                   // key={link.title}
                 >
                   <span>A Propos de moi</span>
@@ -143,7 +143,7 @@ const Footer5 = () => {
                     scrollToTop();
                   }}
                   to="/portfolio"
-                  className="hover:text-orange-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                  className="hover:text-sky-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
                   // key={link.title}
                 >
                   <span>Mes Projets</span>
@@ -153,7 +153,7 @@ const Footer5 = () => {
                     scrollToTop();
                   }}
                   to="/reservation"
-                  className="hover:text-orange-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                  className="hover:text-sky-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
                   // key={link.title}
                 >
                   <span>Rendez-vous</span>
@@ -164,25 +164,25 @@ const Footer5 = () => {
           </div>
           <div className="sm:w-full">
             <div className="py-8 px-4">
-              <h1 className="sm:text-xl text-orange-500 text-xl font-bold sm:text-left text-justify mb-3">
+              <h1 className="sm:text-xl text-sky-500 text-xl font-bold sm:text-left text-justify mb-3">
                 Mes services
               </h1>
               <ul className="flex flex-col gap-3">
                 {/* {FooterLinks.map((link) => ( */}
                 <li
-                  className="hover:text-orange-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                  className="hover:text-sky-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
                   // key={link.title}
                 >
                   <span>Developpement Site Web</span>
                 </li>
                 <li
-                  className="hover:text-orange-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                  className="hover:text-sky-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
                   // key={link.title}
                 >
                   <span>Developpement web App</span>
                 </li>
                 <li
-                  className="hover:text-orange-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                  className="hover:text-sky-500 cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
                   // key={link.title}
                 >
                   <span>Creation d'identite visuelle</span>

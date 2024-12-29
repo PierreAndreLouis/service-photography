@@ -94,7 +94,7 @@ export default function FormulaireReservation() {
     <div className="mx-2 pt-20 bg-gray-100 dark:bg-gray-700 pb-40">
       {/* <ReservationSeo /> */}
       <div className="border-- border-gray-500--  bg-white dark:bg-gray-800 max-w-2xl mx-auto mt-10 shadow-lg rounded-lg overflow-hidden">
-        <div className="text-2xl py-4 px-6 bg-orange-100 border  dark:bg-gray-900 dark:text-gray-50 text-gray-700 text-center font-bold uppercase--">
+        <div className="text-2xl py-4 px-6 bg-sky-100 border  dark:bg-gray-900 dark:text-gray-50 text-gray-700 text-center font-bold uppercase--">
           Prends rendez-vous maintenant
         </div>
         <form className="py-4 px-6" onSubmit={sendMail}>
@@ -325,7 +325,7 @@ export default function FormulaireReservation() {
           <div className="text-center w-full">
             <button
               type="submit"
-              className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 w-[100%] sm:w-[15rem] rounded focus:outline-none focus:shadow-outline"
+              className="bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 w-[100%] sm:w-[15rem] rounded focus:outline-none focus:shadow-outline"
               disabled={loading}
             >
               {loading ? "Envoi en cours..." : "Envoyer"}

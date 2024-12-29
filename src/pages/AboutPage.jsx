@@ -4,7 +4,7 @@ import HeroAbout from "../components/about/HeroAbout";
 import About from "../components/about/About";
 import Statistic4 from "../components/about/Statistic4";
 import CTA1 from "../components/about/CTA1";
-import Service1 from "../components/home/Service1";
+// import Service1 from "../components/home/Service1";
 
 function AboutPage() {
   return (
@@ -12,7 +12,7 @@ function AboutPage() {
       <HeroAbout />
       <About />
       <Statistic4 />
-      <Service1 />
+      {/* <Service1 /> */}
       <CTA1 />
       {/* <About1 />
       <About2 />

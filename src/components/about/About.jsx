@@ -8,7 +8,7 @@ export default function About() {
           <div className="flex flex-col gap-8 lg:flex-row lg:gap-10">
             <div className="flex flex-col gap-6 lg:w-3/5">
               <div className="flex ">
-                <div className=" bg-orange-500 mr-6 overflow-hidden hidden md:block lg:hidden rounded-lg min-w-[15rem]">
+                <div className=" bg-sky-500 mr-6 overflow-hidden hidden md:block lg:hidden rounded-lg min-w-[15rem]">
                   <img
                     src="/assets/profil2.png"
                     className="w-full h-full max-h-[16rem] object-cover object-top"
@@ -28,7 +28,7 @@ export default function About() {
                   </p>
                   <a
                     href="#"
-                    className="max-w-52 rounded-md bg-orange-500 px-3 py-2 text-center font-semibold text-white dark:bg-gray-800 dark:hover:bg-gray-700"
+                    className="max-w-52 rounded-md bg-sky-500 px-3 py-2 text-center font-semibold text-white dark:bg-gray-800 dark:hover:bg-gray-700"
                   >
                     Contactez-moi
                   </a>
@@ -60,7 +60,7 @@ export default function About() {
                       <p className="text-sm font-semibold sm:text-base dark:text-gray-100">
                         5.0
                       </p>
-                      <div className="flex text-orange-500 dark:text-orange-400">
+                      <div className="flex text-sky-500 dark:text-sky-400">
                         <svg
                           className="h-4 w-4"
                           xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ export default function About() {
                       <p className="text-sm font-semibold sm:text-base dark:text-gray-100">
                         5.0
                       </p>
-                      <div className="flex text-orange-500 dark:text-orange-400">
+                      <div className="flex text-sky-500 dark:text-sky-400">
                         <svg
                           className="h-4 w-4"
                           xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="w-full md:hidden lg:flex  rounded-xl overflow-hidden bg-gray-100-- max-h-[34rem] bg-orange-500 max-[991px]:h-[475px] lg:w-2/5">
+            <div className="w-full md:hidden lg:flex  rounded-xl overflow-hidden bg-gray-100-- max-h-[34rem] bg-sky-500 max-[991px]:h-[475px] lg:w-2/5">
               <img
                 src="/assets/profil2.png"
                 alt="Image à propos"

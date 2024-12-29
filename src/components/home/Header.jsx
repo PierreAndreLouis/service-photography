@@ -59,12 +59,12 @@ function Header() {
             className="cursor-default flex items-center gap-2 text-xl font-bold dark:text-gray-50"
           >
             <img
-              className="w-[2rem] h-[2rem] object-cover rounded-full object-top bg-orange-500 "
+              className="w-[2rem] h-[2rem] object-cover rounded-full object-top bg-sky-500 "
               src="/assets/profil2.png"
               alt=""
             />
             <p>
-              Pierre-<span className="text-orange-500">Andre</span>{" "}
+              Pierre-<span className="text-sky-500">Andre</span>{" "}
             </p>
           </Link>
           {/* <div
@@ -122,8 +122,8 @@ function Header() {
                 handleTabClick("home");
               }}
               className={`${
-                tab === "home" ? "text-orange-500" : ""
-              } hover:bg-orange-500 md:hover:bg-orange-50/0 dark:text-gray-100 font-semibold md:hover:text-orange-500 w-full text-center py-1 rounded-lg cursor-pointer hover:text-white `}
+                tab === "home" ? "text-sky-500" : ""
+              } hover:bg-sky-500 md:hover:bg-sky-50/0 dark:text-gray-100 font-semibold md:hover:text-sky-500 w-full text-center py-1 rounded-lg cursor-pointer hover:text-white `}
             >
               Home
             </Link>
@@ -135,8 +135,8 @@ function Header() {
                 handleTabClick("about");
               }}
               className={`${
-                tab === "about" ? "text-orange-500" : ""
-              } hover:bg-orange-500 md:hover:bg-orange-50/0 dark:text-gray-100 font-semibold md:hover:text-orange-500 w-full text-center py-1 rounded-lg cursor-pointer hover:text-white `}
+                tab === "about" ? "text-sky-500" : ""
+              } hover:bg-sky-500 md:hover:bg-sky-50/0 dark:text-gray-100 font-semibold md:hover:text-sky-500 w-full text-center py-1 rounded-lg cursor-pointer hover:text-white `}
             >
               A Propos
             </Link>
@@ -148,8 +148,8 @@ function Header() {
                 handleTabClick("projets");
               }}
               className={`${
-                tab === "projets" ? "text-orange-500" : ""
-              } hover:bg-orange-500 md:hover:bg-orange-50/0 dark:text-gray-100 font-semibold md:hover:text-orange-500 w-full text-center py-1 rounded-lg cursor-pointer hover:text-white `}
+                tab === "projets" ? "text-sky-500" : ""
+              } hover:bg-sky-500 md:hover:bg-sky-50/0 dark:text-gray-100 font-semibold md:hover:text-sky-500 w-full text-center py-1 rounded-lg cursor-pointer hover:text-white `}
             >
               Mes Projets
             </Link>
@@ -161,7 +161,7 @@ function Header() {
               scrollToTop();
               handleTabClick("contact");
             }}
-            className="border font-semibold mb-6 md:hidden px-4 hover:bg-orange-500 hover:text-white cursor-pointer text-orange-500 border-orange-500 w-full text-center py-1 rounded-lg"
+            className="border font-semibold mb-6 md:hidden px-4 hover:bg-sky-500 hover:text-white cursor-pointer text-sky-500 border-sky-500 w-full text-center py-1 rounded-lg"
           >
             Rendez-vous
           </Link>
@@ -187,7 +187,7 @@ function Header() {
               handleTabClick("contact");
             }}
             to="/reservation?tab=contact"
-            className="border font-semibold hidden md:block px-4 hover:bg-orange-500 hover:text-white cursor-pointer text-white bg-orange-500 border-orange-500  text-center py-1 rounded-lg"
+            className="border font-semibold hidden md:block px-4 hover:bg-sky-500 hover:text-white cursor-pointer text-white bg-sky-500 border-sky-500  text-center py-1 rounded-lg"
           >
             Rendez-vous
           </Link>

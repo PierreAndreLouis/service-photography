@@ -43,13 +43,13 @@ export default function Statistic4() {
               {/* {stats.map((item, idx) => ( */}
               <div className="grid grid-rows-2  gap-6">
                 <li className="dark:text-gray-100 lg:min-w-[10rem]">
-                  <h4 className="text-4xl text-orange-600 dark:text-orange-400 font-bold">
+                  <h4 className="text-4xl text-sky-600 dark:text-sky-400 font-bold">
                     50+
                   </h4>
                   <p className="mt-3- font-medium">Clients</p>
                 </li>
                 <li className="dark:text-gray-100 lg:min-w-[10rem]">
-                  <h4 className="text-4xl text-orange-600 dark:text-orange-400 font-bold">
+                  <h4 className="text-4xl text-sky-600 dark:text-sky-400 font-bold">
                     80+
                   </h4>
                   <p className="mt-3- font-medium">Projets</p>
@@ -58,13 +58,13 @@ export default function Statistic4() {
 
               <div className="grid grid-rows-2  gap-6">
                 <li className="dark:text-gray-100 lg:min-w-[10rem]">
-                  <h4 className="text-4xl text-orange-600 dark:text-orange-400 font-bold">
+                  <h4 className="text-4xl text-sky-600 dark:text-sky-400 font-bold">
                     5 ans+
                   </h4>
                   <p className="mt-3- font-medium">Experience</p>
                 </li>
                 <li className="dark:text-gray-100 lg:min-w-[10rem]">
-                  <h4 className="text-4xl text-orange-600 dark:text-orange-400 font-bold">
+                  <h4 className="text-4xl text-sky-600 dark:text-sky-400 font-bold">
                     100%
                   </h4>
                   <p className="mt-3- font-medium">
